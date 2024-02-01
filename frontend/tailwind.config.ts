@@ -18,7 +18,9 @@ const config: Config = {
         'gray-950': '#4E4E4E',
         black: '#0f0f0f',
         primary: '#81E6D9',
-      }
+        secondary: "#212121",
+        "gray-900": "#2C2C2C",
+      },
     },
   },
   plugins: [],
