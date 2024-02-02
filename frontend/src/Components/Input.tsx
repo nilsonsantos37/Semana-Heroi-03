@@ -4,7 +4,7 @@ interface IInput {
     type: string
 }
  const InputBase:  ForwardRefRenderFunction<HTMLInputElement, IInput> = (
-    {placeholder, type, ...reset},
+    { placeholder, type, ...reset},
     ref,
 ) => {
     return (

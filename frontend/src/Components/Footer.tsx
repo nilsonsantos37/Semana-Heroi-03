@@ -71,32 +71,3 @@ export default function Footer() {
     </div>
   );
 }
-
-
-/*
-import React, { useState, useEffect } from 'react';
-import moment from 'moment';
-
-const App = () => {
-  const [currentTime, setCurrentTime] = useState('');
-
-  useEffect(() => {
-    setInterval(() => {
-      setCurrentTime(moment().format('HH:mm:ss'));
-    }, 1000);
-  }, []);
-
-  return (
-    <div>
-      <span>Horário atual: {currentTime}</span>
-    </div>
-  );
-};
-
-export default App;
-
-
-*/
-
-
-
